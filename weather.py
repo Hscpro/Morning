@@ -28,7 +28,7 @@ def get_city_id(cityname, search_type=1):
             fp.close()
         else:
             fp = open(fn, 'w')
-            url_city = 'https://free-api.heweather.com/v5/citylist?search='+search+'&key=c974d98ef5924d7b80f110a185b218be'
+            url_city = 'https://free-api.heweather.com/v5/citylist?search='+search+'&key=和风天气KEY'
             req = urllib2.Request(url_city)
             resp = urllib2.urlopen(req)
             context = resp.read().decode('utf-8')
@@ -62,7 +62,7 @@ def get_city_weather(index, search_type=1):
         search = 'attractions'
     else:
         return -1
-    url_weather = 'https://free-api.heweather.com/v5/'+search+'?city='+index+'&key=c974d98ef5924d7b80f110a185b218be'
+    url_weather = 'https://free-api.heweather.com/v5/'+search+'?city='+index+'&key=和风天气KEY'
     req = urllib2.Request(url_weather)
     resp = urllib2.urlopen(req)
     context = resp.read()
@@ -79,8 +79,8 @@ def get_city_weather(index, search_type=1):
 
 #获取百度语音token
 def get_token():
-    api_key = "qZltbrPzwxhdqpXS9Hb5qFWG"
-    sec_key = "g6FN7TLgO9ZLn1ihPUcpwxxdtX31tpl4"
+    api_key = "百度语音api_key"
+    sec_key = "百度语音sec_key"
     url = url="https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id="+api_key+"&client_secret="+sec_key
     req = urllib2.Request(url)
     resp = urllib2.urlopen(req)
