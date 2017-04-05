@@ -4,4 +4,4 @@
 
 · 晚上低音量播放[青苹果](https://www.qpgfm.com)电台（现在电台播放情感节目）提醒你准备碎觉了，最后一个小时候结束播放并对你说声晚安！
 
-https://www.hscbolg.com/article/RaspberryPi-alarmclock/
+https://www.HscBook.com/article/RaspberryPi-alarmclock/
