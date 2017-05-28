@@ -6,7 +6,7 @@ killall vlc
 # 启动电台
 sleep 6s
 echo volume 100 | /bin/nc -q 0 127.0.0.1 8877
-echo add 'http://hls.qingting.fm:80/live/4576.m3u8?bitrate=64' | /bin/nc -q 0 127.0.0.1 8877
+echo add 'http://lhttp.qingting.fm/live/4576/64k.mp3' | /bin/nc -q 0 127.0.0.1 8877
 
 # 淡入电台
 sleep 6s
