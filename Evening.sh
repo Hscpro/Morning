@@ -12,3 +12,5 @@ echo add 'http://lhttp.qingting.fm/live/4576/64k.mp3' | /bin/nc -q 0 127.0.0.1 8
 sleep 90m
 killall vlc
 /usr/bin/mplayer -cache-min 80 -volume 10 'http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&spd=3&text="Good night!"'
+
+# test github
